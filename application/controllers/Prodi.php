@@ -38,9 +38,9 @@ class Prodi extends CI_Controller {
         $this->form_validation->set_rules('prodi_strata', 'Strata', 'required|in_list[D3,S1,S2]');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('templates/header', $data);
+            $this->load->view('layout/header', $data);
             $this->load->view('prodi/form', $data);
-            $this->load->view('templates/footer');
+            $this->load->view('layout/footer');
         } else {
             $insert_data = [
                 'prodi_id'     => $this->input->post('prodi_id'),

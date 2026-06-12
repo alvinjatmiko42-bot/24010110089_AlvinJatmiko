@@ -36,9 +36,9 @@ class Fakultas extends CI_Controller {
         $this->form_validation->set_rules('fakultas_name', 'Nama Fakultas', 'required|min_length[3]|max_length[100]');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('templates/header', $data);
+            $this->load->view('layout/header', $data);
             $this->load->view('fakultas/form', $data);
-            $this->load->view('templates/footer');
+            $this->load->view('layout/footer');
         } else {
             $insert_data = [
                 'fakultas_id'   => $this->input->post('fakultas_id'),
@@ -74,9 +74,9 @@ class Fakultas extends CI_Controller {
         $this->form_validation->set_rules('fakultas_name', 'Nama Fakultas', 'required|min_length[3]|max_length[100]');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('templates/header', $data);
+            $this->load->view('layout/header', $data);
             $this->load->view('fakultas/form', $data);
-            $this->load->view('templates/footer');
+            $this->load->view('layout/footer');
         } else {
             $update_data = [
                 'fakultas_name' => $this->input->post('fakultas_name')
