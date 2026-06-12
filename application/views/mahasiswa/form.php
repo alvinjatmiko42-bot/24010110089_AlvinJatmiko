@@ -44,7 +44,7 @@
 							<?php endif; ?>
 						</div>
 						<?php if (isset($button) && $button === 'Update'): ?>
-							<div id="passwordHelp" class="form-text">Kosongkan jika tidak ingin diubah.</div>
+							<div id="passwordHelp" class="form-text">Kosongkan jika tidak ingin.</div>
 						<?php endif; ?>
 					</div>
 					<div class="d-flex gap-2">
