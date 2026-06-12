@@ -19,9 +19,9 @@ class Fakultas extends CI_Controller {
         $data['title'] = 'Daftar Fakultas';
         $data['fakultas'] = $this->FakultasModel->getAll();
 
-        $this->load->view('templates/header', $data);
+        $this->load->view('layout/header', $data);
         $this->load->view('fakultas/index', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('layout/footer');
     }
 
     public function tambah()

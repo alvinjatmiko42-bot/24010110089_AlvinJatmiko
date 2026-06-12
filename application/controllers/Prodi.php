@@ -19,9 +19,9 @@ class Prodi extends CI_Controller {
         $data['title'] = 'Daftar Program Studi';
         $data['prodi'] = $this->ProdiModel->getAll();
 
-        $this->load->view('templates/header', $data);
+        $this->load->view('layout/header', $data);
         $this->load->view('prodi/index', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('layout/footer');
     }
 
     public function tambah()
