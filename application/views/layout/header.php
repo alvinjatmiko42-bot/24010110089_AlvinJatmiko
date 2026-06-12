@@ -45,8 +45,8 @@
         <div class="offcanvas-body p-0">
             <div class="text-center mt-3 mb-4 pb-3 border-bottom">
                 <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png" class="rounded-circle w-50" alt="Avatar">
-                <div class="fw-semibold mt-2">[NAMA]</div>
-                <small class="text-white-50">[NIM]</small>
+                <div class="fw-semibold mt-2">[AlvinDjatmiko]</div>
+                <small class="text-white-50">[24010110089]</small>
             </div>
             <ul class="nav flex-column">
                 <li class="nav-item">
